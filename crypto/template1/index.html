@@ -1,0 +1,1688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <title>Cryptocurrency - Bootstrap 4 Admin Template</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/fontawesome/css/fontawesome.min.css" >
+    <link rel="stylesheet" type="text/css" href="assets/plugins/fontawesome/css/all.min.css" >
+	<link rel="stylesheet" type="text/css" href="assets/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper">
+		<!-- Header -->
+        <div class="header">
+			<div class="header-left">
+				<a href="index.html" class="logo">
+					<img src="assets/img/logo.png" width="35" height="35" alt=""> <span>Crypto</span>
+				</a>
+			</div>
+			<a id="toggle_btn" href="javascript:void(0);"><i class="fas fa-bars"></i></a>
+            <a id="mobile_btn" class="mobile_btn float-left" href="#sidebar"><i class="fas fa-bars"></i></a>
+            <ul class="nav user-menu float-right">
+                <li class="nav-item dropdown d-none d-sm-block">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="far fa-bell"></i> <span class="badge badge-pill bg-danger float-right">3</span></a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span>Notifications</span>
+                        </div>
+                        <div class="drop-scroll">
+                            <ul class="notification-list">
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media">
+											<span class="avatar">
+												<img alt="John Doe" src="assets/img/user.jpg" class="img-fluid rounded-circle">
+											</span>
+											<div class="media-body">
+												<p class="noti-details"><span class="noti-title">John Doe</span> added new task <span class="noti-title"></span></p>
+												<p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+											</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media">
+											<span class="avatar">V</span>
+											<div class="media-body">
+												<p class="noti-details"><span class="noti-title">Tarah Shropshire</span> changed the task name <span class="noti-title"></span></p>
+												<p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+											</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media">
+											<span class="avatar">L</span>
+											<div class="media-body">
+												<p class="noti-details"><span class="noti-title">Misty Tison</span> added <span class="noti-title">Domenic Houston</span> and <span class="noti-title">Claire Mapes</span> to project <span class="noti-title"> module</span></p>
+												<p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+											</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media">
+											<span class="avatar">G</span>
+											<div class="media-body">
+												<p class="noti-details"><span class="noti-title">Rolland Webber</span> completed task <span class="noti-title"></span></p>
+												<p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+											</div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media">
+											<span class="avatar">V</span>
+											<div class="media-body">
+												<p class="noti-details"><span class="noti-title">Bernardo Galaviz</span> added new task <span class="noti-title">Private chat module</span></p>
+												<p class="noti-time"><span class="notification-time">2 days ago</span></p>
+											</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="#">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown d-none d-sm-block">
+                    <a href="javascript:void(0);" id="open_msg_box" class="hasnotifications nav-link"><i class="far fa-comment"></i> <span class="badge badge-pill bg-danger float-right">8</span></a>
+                </li>
+                <li class="nav-item dropdown has-arrow">
+                    <a href="#" class="dropdown-toggle nav-link user-link" data-toggle="dropdown">
+                        <span class="user-img"><img class="rounded-circle" src="assets/img/user.jpg" width="40" alt="Admin">
+							<span class="status online"></span></span>
+                        <span>Admin</span>
+                    </a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">My Profile</a>
+						<a class="dropdown-item" href="#">Edit Profile</a>
+						<a class="dropdown-item" href="settings.html">Settings</a>
+						<a class="dropdown-item" href="login.html">Logout</a>
+					</div>
+                </li>
+            </ul>
+            <div class="dropdown mobile-user-menu float-right">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fas fa-ellipsis-v"></i></a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">My Profile</a>
+                    <a class="dropdown-item" href="#">Edit Profile</a>
+                    <a class="dropdown-item" href="settings.html">Settings</a>
+                    <a class="dropdown-item" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+		<!--Header End-->
+		
+		<!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title">Main</li>
+                        <li class="active" >
+                            <a class="active" href="index.html"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
+                        </li>
+						<li>
+                            <a href="exchange.html"><i class="fas fa-exchange-alt" aria-hidden="true"></i><span>Currency Exchange</span></a>
+                        </li>
+                        <li class="submenu">
+							<a href="#"><i class="fas fa-shopping-cart" aria-hidden="true"></i> <span> Buy & Sell </span> <span class="menu-arrow"></span></a>
+							<ul style="display: none;">
+								<li><a href="buy-crypto.html">Buy Crypto</a></li>
+								<li><a href="sell-crypto.html">Sell Crypto</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="activities.html"><i class="far fa-bell"></i> <span>Activities</span></a>
+						</li>
+                        <li>
+                            <a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a>
+                        </li>
+						<li class="submenu">
+                            <a href="#"><i class="fas fa-columns"></i> <span>Pages</span> <span class="menu-arrow"></span></a>
+                            <ul style="display: none;">
+                                <li><a href="login.html"> Login </a></li>
+                                <li><a href="register.html"> Register </a></li>
+                                <li><a href="forgot-password.html"> Forgot Password </a></li>	
+							</ul>
+						</li>
+					</ul>
+                </div>
+            </div>
+        </div>
+		<!-- Sidebar End -->
+		
+		<!-- Content -->
+        <div class="page-wrapper bg-wrapper">
+            <div class="content">
+			
+                <div class="row">
+                    <div class="col-sm-12">
+				<div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+							<span class="dash-widget-bg1"><i class="fab fa-btc" aria-hidden="true"></i></span>
+							<div class="dash-widget-info text-right">
+								<h3>$ 76,598</h3>
+								<span class="widget-title1">BTC <i class="fas fa-check" aria-hidden="true"></i></span>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                            <span class="dash-widget-bg2"><i class="fas fa-euro-sign" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info text-right">
+                                <h3>$ 21,072</h3>
+                                <span class="widget-title2">Ethereum <i class="fas fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                            <span class="dash-widget-bg3"><i class="fas fa-ruble-sign" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info text-right">
+                                <h3>$ 45,572</h3>
+                                <span class="widget-title3">Ripple <i class="fas fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                            <span class="dash-widget-bg4"><i class="fas fa-shekel-sign" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info text-right">
+                                <h3>$ 67,618</h3>
+                                <span class="widget-title4">Cardeno <i class="fas fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+				<div class="row">
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+							<span class="dash-widget-bg4"><i class="fas fa-won-sign" aria-hidden="true"></i></span>
+							<div class="dash-widget-info text-right">
+								<h3>$ 32,598</h3>
+								<span class="widget-title4">Litecoin <i class="fas fa-check" aria-hidden="true"></i></span>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                            <span class="dash-widget-bg3"><i class="fas fa-yen-sign" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info text-right">
+                                <h3>$ 41,072</h3>
+                                <span class="widget-title3">NEO <i class="fas fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                            <span class="dash-widget-bg2"><i class="fas fa-lira-sign" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info text-right">
+                                <h3>$ 22,334</h3>
+                                <span class="widget-title2">Stellar <i class="fas fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-6 col-xl-3">
+                        <div class="dash-widget">
+                            <span class="dash-widget-bg1"><i class="fas fa-yen-sign" aria-hidden="true"></i></span>
+                            <div class="dash-widget-info text-right">
+                                <h3>$ 18,234</h3>
+                                <span class="widget-title1">EOS <i class="fas fa-check" aria-hidden="true"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-lg-12 mb-3">
+						<div class="ticker__viewport">
+							<ul class="ticker__list" data-ticker="list">
+								<li class="ticker__item" data-ticker="item">
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp; 
+										<span class="text-uppercase font-weight-bold">
+											BitCoin (BTC) </span> $3,245 (2.38%) 
+												<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i>&nbsp;&nbsp;
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>&nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i> &nbsp;&nbsp;
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)&nbsp; 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i> &nbsp; &nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"> </i> &nbsp;&nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i>
+								</li>
+								<li class="ticker__item" data-ticker="item">
+									<li class="ticker__item" data-ticker="item">
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp; 
+										<span class="text-uppercase font-weight-bold">
+											BitCoin (BTC) </span> $3,245 (2.38%) 
+												<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i>&nbsp;&nbsp;
+									<i class="fas fa-btc text-success" aria-hidden="true"></i>&nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i> &nbsp;&nbsp;
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)&nbsp; 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i> &nbsp; &nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"> </i> &nbsp;&nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i>
+								</li>
+								<li class="ticker__item" data-ticker="item">
+									<li class="ticker__item" data-ticker="item">
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp; 
+										<span class="text-uppercase font-weight-bold">
+											BitCoin (BTC) </span> $3,245 (2.38%) 
+												<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i>&nbsp;&nbsp;
+									<i class="fas fa-btc text-success" aria-hidden="true"></i>&nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i> &nbsp;&nbsp;
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)&nbsp; 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i> &nbsp; &nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"> </i> &nbsp;&nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i> 
+								</li>
+								<li class="ticker__item" data-ticker="item">
+									 <li class="ticker__item" data-ticker="item">
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp; 
+										<span class="text-uppercase font-weight-bold">
+											BitCoin (BTC) </span> $3,245 (2.38%) 
+												<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i>&nbsp;&nbsp;
+									<i class="fas fa-btc text-success" aria-hidden="true"></i>&nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i> &nbsp;&nbsp;
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)&nbsp; 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i> &nbsp; &nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"> </i> &nbsp;&nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i>&nbsp; &nbsp; 
+								</li>
+								<li class="ticker__item" data-ticker="item">
+									<li class="ticker__item" data-ticker="item">
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp; 
+										<span class="text-uppercase font-weight-bold">
+											BitCoin (BTC) </span> $3,245 (2.38%) 
+												<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i>&nbsp;&nbsp;
+									<i class="fas fa-btc text-success" aria-hidden="true"></i>&nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"></i> &nbsp;&nbsp;
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i> &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%)&nbsp; 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i> &nbsp; &nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-up text-success" aria-hidden="true"> </i> &nbsp;&nbsp; 
+									<i class="fas fa-btc text-warning" aria-hidden="true"></i>  &nbsp;
+									<span class="text-uppercase font-weight-bold">
+										BitCoin (BTC) </span> $3,245 (2.38%) 
+									<i class="fas fa-long-arrow-alt-down text-danger" aria-hidden="true"></i>&nbsp; &nbsp; 
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-md-12">
+						<div class="buy-form">
+						<h4 class="page-title">Price Changing Graph</h4>
+							 <div id="chartdiv"></div>
+						</div>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="buy-form">
+						<h4 class="page-title">Realtime Chart</h4>
+							<div id="chartdiv1"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="crypto-exchange">
+							<div class="card">
+								<div class="card-title">
+									<h4 class="page-title">Exchange Cryptocurrency </h4>
+								</div>
+								<p class="ml-4 pl-2 pr-4">Transfer from one wallet to another within seconds. It's that simple.</p>
+								<div class="row">
+									<div class="col-lg-12">
+										<div class="exchange-form">
+											<form>
+												<div class="form-row ">
+													<div class="form-group col-md-12">
+														<input type="text" class="form-control" placeholder="1.432">
+													</div>
+													<div class="form-group col-md-12">
+														<select class="form-control select">
+															<option selected>BTC</option>
+															<option>Ethereum</option>
+															<option>Ripple</option>
+															<option>Bitcoin</option>
+															<option>Cardano</option>
+															<option>Litecoin</option>
+															<option>NEO</option>
+															<option>Stellar</option>
+															<option>EOS</option>
+															<option>NEM</option>
+														</select>
+													</div>
+													<div class="col-md-12">
+														<button type="button" class="btn btn-primary btn-lg btn-block mb-4"><i class="fas fa-exchange-alt" aria-hidden="true"></i></button>
+													</div>
+													<div class="form-group col-md-12 ">
+														<input type="text" class="form-control " placeholder="338">
+													</div>
+													<div class="form-group col-md-12">
+														<select class="form-control select">
+															<option selected>BTC</option>
+															<option>Ethereum</option>
+															<option>Ripple</option>
+															<option>Bitcoin</option>
+															<option>Cardano</option>
+															<option>Litecoin</option>
+															<option>NEO</option>
+															<option>Stellar</option>
+															<option>EOS</option>
+															<option>NEM</option>
+														</select>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+                <div class="row">
+                    <div class="col-md-12">
+						<div class="buy-form">
+						<h4 class="page-title">Cryptocurrency Market Capitalizations</h4>
+							<div class="table-responsive">
+								<table class="datatable table table-striped custom-table">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Currency</th>
+											<th style="min-width:110px;">Price</th>
+											<th style="min-width:110px;">Market Cap</th>
+											<th style="min-width:110px;">Volume</th>
+											<th style="min-width:110px;">Circulating Supply</th>
+											<th style="min-width:90px;">Change(24h)</th>
+											<th style="min-width:90px;"> Graph</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><img width="28" height="28" src="assets/img/bitcoin.png" class="rounded-circle" alt=""> </td>
+											<td>Bitcoin</td>
+											<td>$ 11,723.40</td>
+											<td>$ 197,078,267,295</td>
+											<td>$ 17,950,900,000</td>
+											<td>16 973 112</td>
+											<td>
+												<span class="custom-badge status-green"><i class="fas fa-arrow-up" aria-hidden="true"></i> 263.54 %</span>
+											</td>
+											<td class="text-center">
+												<a href="chartjs.html" class="graph-price">
+													<i class="fas fa-chart-area" aria-hidden="true"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+											<img width="28" height="28" src="assets/img/ethereum.png" class="rounded-circle" alt=""> 
+											</td>
+											<td>Ethereum</td>
+											<td>$ 1,070.39</td>
+											<td>$ 103,892,495,504</td>
+											<td>$ 7,564,310,000</td>
+											<td>16 973 112</td>
+											<td>
+												<span class="custom-badge status-green"> <i class="fas fa-arrow-up" aria-hidden="true"></i> 26.13%</span>
+											</td>
+											<td class="text-center">
+												<a href="chartjs.html" class="graph-price">
+													<i class="fas fa-chart-area" aria-hidden="true"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img width="28" height="28" src="assets/img/ripple.png" class="rounded-circle" alt=""> 
+											</td>
+											<td>Ripple</td>
+											<td>$ 1.64</td>
+											<td>$ 63,391,183,730</td>
+											<td>$ 10,143,400,000</td>
+											<td>16 973 112</td>
+											<td>
+												<span class="custom-badge status-green"><i class="fas fa-arrow-up" aria-hidden="true"></i> 66.62%</span>
+											</td>
+											<td class="text-center">
+												<a href="chartjs.html" class="graph-price">
+													<i class="fas fa-chart-area" aria-hidden="true"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img width="28" height="28" src="assets/img/litecoin.png" class="rounded-circle" alt=""> 
+											</td>
+											<td>Litecoin</td>
+											<td>$ 198.88</td>
+											<td>$ 10,901,285,520</td>
+											<td>$ 1,235,390,000</td>
+											<td>16 973 112</td>
+											<td>
+												<span class="custom-badge status-green"><i class="fas fa-arrow-up" aria-hidden="true"></i>  26.96%</span>
+											</td>
+											<td class="text-center">
+												<a href="chartjs.html" class="graph-price">
+													<i class="fas fa-chart-area" aria-hidden="true"></i>
+												</a>
+											</td>
+										</tr>
+										 <tr>
+											<td><img width="28" height="28" src="assets/img/bitcoin.png" class="rounded-circle" alt=""> </td>
+											<td>Bitcoin</td>
+											<td>$ 11,723.40</td>
+											<td>$ 197,078,267,295</td>
+											<td>$ 17,950,900,000</td>
+											<td>16 973 112</td>
+											<td>
+												<span class="custom-badge status-green"><i class="fas fa-arrow-up" aria-hidden="true"></i> 263.54 %</span>
+											</td>
+											<td class="text-center">
+												<a href="chartjs.html" class="graph-price">
+													<i class="fas fa-chart-area" aria-hidden="true"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+											<img width="28" height="28" src="assets/img/ethereum.png" class="rounded-circle" alt=""> 
+											</td>
+											<td>Ethereum</td>
+											<td>$ 1,070.39</td>
+											<td>$ 103,892,495,504</td>
+											<td>$ 7,564,310,000</td>
+											<td>16 973 112</td>
+											<td>
+												<span class="custom-badge status-green"> <i class="fas fa-arrow-up" aria-hidden="true"></i> 26.13%</span>
+											</td>
+											<td class="text-center">
+												<a href="chartjs.html" class="graph-price">
+													<i class="fas fa-chart-area" aria-hidden="true"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img width="28" height="28" src="assets/img/ripple.png" class="rounded-circle" alt=""> 
+											</td>
+											<td>Ripple</td>
+											<td>$ 1.64</td>
+											<td>$ 63,391,183,730</td>
+											<td>$ 10,143,400,000</td>
+											<td>16 973 112</td>
+											<td>
+												<span class="custom-badge status-green"><i class="fas fa-arrow-up" aria-hidden="true"></i> 66.62%</span>
+											</td>
+											<td class="text-center">
+												<a href="chartjs.html" class="graph-price">
+													<i class="fas fa-chart-area" aria-hidden="true"></i>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<img width="28" height="28" src="assets/img/litecoin.png" class="rounded-circle" alt=""> 
+											</td>
+											<td>Litecoin</td>
+											<td>$ 198.88</td>
+											<td>$ 10,901,285,520</td>
+											<td>$ 1,235,390,000</td>
+											<td>16 973 112</td>
+											<td>
+												<span class="custom-badge status-green"><i class="fas fa-arrow-up" aria-hidden="true"></i>  26.96%</span>
+											</td>
+											<td class="text-center">
+												<a href="chartjs.html" class="graph-price">
+													<i class="fas fa-chart-area" aria-hidden="true"></i>
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+                    </div>
+                </div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div class="buy-form">
+						<h4 class="page-title">Buy Cryptocurrency</h4>
+							<form>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group">
+											<label>Select Crypto (Min-value:0.001 BTC)</label>
+											<select class="form-control select">
+												<option selected>BTC</option>
+												<option>Ethereum</option>
+												<option>Ripple</option>
+												<option>Bitcoin</option>
+												<option>Cardano</option>
+												<option>Litecoin</option>
+												<option>NEO</option>
+												<option>Stellar</option>
+												<option>EOS</option>
+												<option>NEM</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label>Choose Payment Method</label>
+											<select class="form-control select">
+												<option selected>Visa</option>
+												<option>Debit</option>
+												<option>Credit</option>
+												<option>Net Banking</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<label>Choose Payment Method</label>
+											<input class="form-control" type="text" value="wbtc123sdferwxcds321">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<label>Exchange</label>
+									</div>
+									<div class="col-lg-6 col-md-6 col-6">
+										<div class="form-group">
+										   <input type="text" class="form-control" placeholder="1.432">
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-6">
+										<div class="form-group">
+											<select class="form-control select">
+											<option selected>BTC</option>
+											<option>Ethereum</option>
+											<option>Ripple</option>
+											<option>Bitcoin</option>
+											<option>Cardano</option>
+											<option>Litecoin</option>
+											<option>NEO</option>
+											<option>Stellar</option>
+											<option>EOS</option>
+											<option>NEM</option>
+										</select>
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+										<button type="button" class="btn btn-primary btn-lg btn-block mb-3"><i class="fas fa-exchange-alt" aria-hidden="true"></i></button>
+									</div>
+									<div class="col-lg-6  col-md-6 col-6">
+										<div class="form-group">
+										   <input type="text" class="form-control" placeholder="3342">
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-6">
+										<div class="form-group">
+											<select class="form-control select">
+											<option selected>BTC</option>
+											<option>Ethereum</option>
+											<option>Ripple</option>
+											<option>Bitcoin</option>
+											<option>Cardano</option>
+											<option>Litecoin</option>
+											<option>NEO</option>
+											<option>Stellar</option>
+											<option>EOS</option>
+											<option>NEM</option>
+										</select>
+										</div>
+									</div>
+								</div>
+								<div class="mt-1 text-center">
+									<button class="btn btn-primary submit-btn mt-4">Buy Crypto</button>
+								</div>
+							</form>
+						</div>
+                    </div>
+					<div class="col-lg-6 col-md-6">
+						<div class="buy-form">
+						<h4 class="page-title">Sell Cryptocurrency</h4>
+							<form>
+								<div class="row">
+									<div class="col-lg-12 col-md-12">
+										<div class="form-group">
+											<label>Select Crypto (Min-value:0.001 BTC)</label>
+											<select class="form-control select">
+												<option selected>BTC</option>
+												<option>Ethereum</option>
+												<option>Ripple</option>
+												<option>Bitcoin</option>
+												<option>Cardano</option>
+												<option>Litecoin</option>
+												<option>NEO</option>
+												<option>Stellar</option>
+												<option>EOS</option>
+												<option>NEM</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12">
+										<div class="form-group">
+											<label>Crypto Amount (Min-amt:0.001 BTC)</label>
+											<select class="form-control select">
+												<option selected>Visa</option>
+												<option>Debit</option>
+												<option>Credit</option>
+												<option>Net Banking</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12">
+										<div class="form-group">
+											<label>Account Password</label>
+											<input class="form-control" type="password" >
+										</div>
+									</div>
+									<div class=" col-lg-12 col-md-12">
+										<label>Exchange</label>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+										   <input type="text" class="form-control" placeholder="1.432">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<select class="form-control select">
+											<option selected>BTC</option>
+											<option>Ethereum</option>
+											<option>Ripple</option>
+											<option>Bitcoin</option>
+											<option>Cardano</option>
+											<option>Litecoin</option>
+											<option>NEO</option>
+											<option>Stellar</option>
+											<option>EOS</option>
+											<option>NEM</option>
+										</select>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<button type="button" class="btn btn-primary btn-lg btn-block mb-3"><i class="fas fa-exchange-alt" aria-hidden="true"></i></button>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+										   <input type="text" class="form-control" placeholder="3342">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<select class="form-control select">
+											<option selected>BTC</option>
+											<option>Ethereum</option>
+											<option>Ripple</option>
+											<option>Bitcoin</option>
+											<option>Cardano</option>
+											<option>Litecoin</option>
+											<option>NEO</option>
+											<option>Stellar</option>
+											<option>EOS</option>
+											<option>NEM</option>
+										</select>
+										</div>
+									</div>
+								</div>
+								<div class="mt-2 text-center">
+									<button class="btn btn-primary submit-btn mt-4">Sell Crypto</button>
+								</div>
+							</form>
+						</div>
+                    </div>
+					
+                </div>
+				<div class="row">
+					<div class="col-lg-6 col-md-12">
+						<div class="buy-form">
+							<h4 class="page-title">Recent Buying Cryptocurrency</h4>
+							<div class="table-responsive">
+								<table class="table table-striped custom-table mb-0">
+									<thead>
+										<tr>
+											<th> ID Number</th> 
+											<th> Trade Time</th>
+											<th> Status</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>12345</td>
+											<td>3.30 am</td>
+											<td>
+												<span class="custom-badge status-green">Complete</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12346</td>
+											<td>3.30 am</td>
+											<td>
+												<span class="custom-badge status-blue">Pending</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12347</td>
+											<td>3.40 am</td>
+											<td>
+												 <span class="custom-badge status-green">Complete</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12348</td>
+											<td>4.10 am</td>
+											<td>
+												   <span class="custom-badge status-blue">Pending</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12349</td>
+											<td>4.30 am</td>
+											<td>
+												<span class="custom-badge status-grey">Canceled</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12349</td>
+											<td>4.30 am</td>
+											<td>
+												<span class="custom-badge status-grey">Canceled</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12349</td>
+											<td>4.30 am</td>
+											<td>
+												<span class="custom-badge status-grey">Canceled</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="buy-form">
+							<h4 class="page-title">Recent Selling Cryptocurrency</h4>
+							<div class="table-responsive">
+								<table class="table table-striped custom-table mb-0">
+									<thead>
+										<tr>
+											<th> ID Number</th> 
+											<th> Trade Time</th>
+											<th> Status</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>12345</td>
+											<td>3.30 am</td>
+											<td>
+												<span class="custom-badge status-green">Complete</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12346</td>
+											<td>3.30 am</td>
+											<td>
+												<span class="custom-badge status-blue">Pending</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12347</td>
+											<td>3.40 am</td>
+											<td>
+												 <span class="custom-badge status-green">Complete</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12348</td>
+											<td>4.10 am</td>
+											<td>
+												   <span class="custom-badge status-blue">Pending</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12349</td>
+											<td>4.30 am</td>
+											<td>
+												<span class="custom-badge status-grey">Canceled</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12349</td>
+											<td>4.30 am</td>
+											<td>
+												<span class="custom-badge status-grey">Canceled</span>
+											</td>
+										</tr>
+										<tr>
+											<td>12349</td>
+											<td>4.30 am</td>
+											<td>
+												<span class="custom-badge status-grey">Canceled</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+                    </div>
+                </div>
+              </div>
+           </div>
+            <div class="notification-box">
+                <div class="msg-sidebar notifications msg-noti">
+                    <div class="topnav-dropdown-header">
+                        <span>Messages</span>
+                    </div>
+                    <div class="drop-scroll msg-list-scroll" id="msg_list">
+                        <ul class="list-box">
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">R</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Richard Miles </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item new-message">
+                                        <div class="list-left">
+                                            <span class="avatar">J</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">John Doe</span>
+                                            <span class="message-time">1 Aug</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">T</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Tarah Shropshire </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">M</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Mike Litorus</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">C</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Catherine Manseau </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">D</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Domenic Houston </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">B</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Buster Wigton </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">R</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Rolland Webber </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">C</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author"> Claire Mapes </span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">M</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Melita Faucher</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">J</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Jeffery Lalor</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">L</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Loren Gatlin</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="list-item">
+                                        <div class="list-left">
+                                            <span class="avatar">T</span>
+                                        </div>
+                                        <div class="list-body">
+                                            <span class="message-author">Tarah Shropshire</span>
+                                            <span class="message-time">12:28 AM</span>
+                                            <div class="clearfix"></div>
+                                            <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="topnav-dropdown-footer">
+                        <a href="#">See all messages</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- Content End -->
+
+    <div class="sidebar-overlay" data-reff=""></div>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.dataTables.min.js"></script>
+	<script src="assets/js/dataTables.bootstrap4.min.js"></script>
+	<script src="assets/plugins/amchart/js/amchart.js"></script>
+	<script src="assets/plugins/amchart/js/serial.js"></script>
+	<script src="assets/plugins/amchart/js/light.js"></script>
+	<script src="assets/plugins/amchart/js/amstock.js"></script>
+	<script src="assets/plugins/amchart/js/pie.js"></script>
+	<script src="assets/plugins/amchart/js/responsive.min.js"></script>
+ 	<script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/app.js"></script>
+	
+	<script>
+	
+/**
+ * Generate random chart data
+ */
+var chartData1 = [];
+var chartData2 = [];
+var chartData3 = [];
+var chartData4 = [];
+
+function generateChartData() {
+  var firstDate = new Date();
+  firstDate.setDate( firstDate.getDate() - 500 );
+  firstDate.setHours( 0, 0, 0, 0 );
+
+  for ( var i = 0; i < 500; i++ ) {
+    var newDate = new Date( firstDate );
+    newDate.setDate( newDate.getDate() + i );
+
+    var a1 = Math.round( Math.random() * ( 40 + i ) ) + 100 + i;
+    var b1 = Math.round( Math.random() * ( 1000 + i ) ) + 500 + i * 2;
+
+    var a2 = Math.round( Math.random() * ( 100 + i ) ) + 200 + i;
+    var b2 = Math.round( Math.random() * ( 1000 + i ) ) + 600 + i * 2;
+
+    var a3 = Math.round( Math.random() * ( 100 + i ) ) + 200;
+    var b3 = Math.round( Math.random() * ( 1000 + i ) ) + 600 + i * 2;
+
+    var a4 = Math.round( Math.random() * ( 100 + i ) ) + 200 + i;
+    var b4 = Math.round( Math.random() * ( 100 + i ) ) + 600 + i;
+
+    chartData1.push( {
+      "date": newDate,
+      "value": a1,
+      "volume": b1
+    } );
+    chartData2.push( {
+      "date": newDate,
+      "value": a2,
+      "volume": b2
+    } );
+    chartData3.push( {
+      "date": newDate,
+      "value": a3,
+      "volume": b3
+    } );
+    chartData4.push( {
+      "date": newDate,
+      "value": a4,
+      "volume": b4
+    } );
+  }
+}
+
+generateChartData();
+
+/**
+ * Create the chart-amcharts 
+ */
+var chart = AmCharts.makeChart( "chartdiv", {
+  "type": "stock",
+  "theme": "light",
+
+  // This will keep the selection at the end across data updates
+  "glueToTheEnd": true,
+
+  // Defining data sets
+  "dataSets": [ {
+    "title": "first data set",
+    "fieldMappings": [ {
+      "fromField": "value",
+      "toField": "value",	 
+    }, {
+      "fromField": "volume",
+      "toField": "volume"
+    } ],
+    "dataProvider": chartData1,
+    "categoryField": "date"
+  }, {
+    "title": "second data set",
+    "fieldMappings": [ {
+      "fromField": "value",
+      "toField": "value"
+    }, {
+      "fromField": "volume",
+      "toField": "volume"
+    } ],
+    "dataProvider": chartData2,
+    "categoryField": "date"
+  }, {
+    "title": "third data set",
+    "fieldMappings": [ {
+      "fromField": "value",
+      "toField": "value"
+    }, {
+      "fromField": "volume",
+      "toField": "volume"
+    } ],
+    "dataProvider": chartData3,
+    "categoryField": "date"
+  }, {
+    "title": "fourth data set",
+    "fieldMappings": [ {
+      "fromField": "value",
+      "toField": "value"
+    }, {
+      "fromField": "volume",
+      "toField": "volume"
+    } ],
+    "dataProvider": chartData4,
+    "categoryField": "date"
+  } ],
+
+  // Panels
+  "panels": [ {
+    "showCategoryAxis": false,
+    "title": "Value",
+    "percentHeight": 50,
+    "stockGraphs": [ {
+      "id": "g1",
+      "valueField": "value",
+      "comparable": true,
+      "compareField": "value",
+	"lineColor": "#6713d2",
+	"fillColors": "#cc208e",
+	"negativeLineColor": "#6713d2",
+	"negativeFillColors": "#db4c3c",
+	"fillAlphas": .5,
+	"useDataSetColors": false,
+	  
+    } ],
+    "stockLegend": {}
+  }, {
+    "title": "Volume",
+    "percentHeight": 50,
+    "stockGraphs": [ {
+      "valueField": "volume",
+      "type": "column",
+      "showBalloon": false,
+      "fillAlphas": .7,
+	  "lineColor": "#6713d2",
+	"fillColors": "#cc208e",
+	"useDataSetColors": false,
+    } ],
+    "stockLegend": {}
+  } ],
+
+  
+  // Period Selector
+  "periodSelector": {
+    "position": "bottom",
+    "periods": [ {
+      "period": "DD",
+      "count": 10,
+      "label": "10 days"
+    }, {
+      "period": "MM",
+      "selected": true,
+      "count": 1,
+      "label": "1 month"
+    }, {
+      "period": "YYYY",
+      "count": 1,
+      "label": "1 year"
+    }, {
+      "period": "YTD",
+      "label": "YTD"
+    }, {
+      "period": "MAX",
+      "label": "MAX"
+    } ]
+  },
+
+  // Data Set Selector
+  "dataSetSelector": {
+    "position": "top"
+  },
+
+  // Event listeners
+  "listeners": [ {
+    "event": "rendered",
+    "method": function( event ) {
+      chart.mouseDown = false;
+      chart.containerDiv.onmousedown = function() {
+        chart.mouseDown = true;
+      }
+      chart.containerDiv.onmouseup = function() {
+        chart.mouseDown = false;
+      }
+    }
+  } ]
+} );
+
+/**
+ * Set up interval to update the data periodically
+ */
+setInterval( function() {
+
+  // if mouse is down, stop all updates
+  if ( chart.mouseDown )
+    return;
+
+  // normally you would load new datapoints here,
+  // but we will just generate some random values
+  // and remove the value from the beginning so that
+  // we get nice sliding graph feeling
+
+  // remove datapoint from the beginning
+ // chartData1.shift();
+  //chartData2.shift();
+  //chartData3.shift();
+ // chartData4.shift();
+
+  // add new datapoint at the end
+  var newDate = new Date( chartData1[ chartData1.length - 1 ].date );
+  newDate.setDate( newDate.getDate() + 1 );
+
+  var i = chartData1.length;
+
+  var a1 = Math.round( Math.random() * ( 40 + i ) ) + 100 + i;
+  var b1 = Math.round( Math.random() * ( 1000 + i ) ) + 500 + i * 2;
+
+  var a2 = Math.round( Math.random() * ( 100 + i ) ) + 200 + i;
+  var b2 = Math.round( Math.random() * ( 1000 + i ) ) + 600 + i * 2;
+
+  var a3 = Math.round( Math.random() * ( 100 + i ) ) + 200;
+  var b3 = Math.round( Math.random() * ( 1000 + i ) ) + 600 + i * 2;
+
+  var a4 = Math.round( Math.random() * ( 100 + i ) ) + 200 + i;
+  var b4 = Math.round( Math.random() * ( 100 + i ) ) + 600 + i;
+
+  chart.dataSets[ 0 ].dataProvider.push( {
+    date: newDate,
+    value: a1,
+    volume: b1
+  } );
+  chart.dataSets[ 1 ].dataProvider.push( {
+    date: newDate,
+    value: a2,
+    volume: b2
+  } );
+  chart.dataSets[ 2 ].dataProvider.push( {
+    date: newDate,
+    value: a3,
+    volume: b3
+  } );
+  chart.dataSets[ 3 ].dataProvider.push( {
+    date: newDate,
+    value: a4,
+    volume: b4
+  } );
+
+  chart.validateData();
+}, 1000 );
+/**
+ * Create the chart
+ */var chart1 = AmCharts.makeChart("chartdiv1", {
+  "type": "serial",
+  "theme": "light",
+  "dataDateFormat": "YYYY-MM-DD",
+  "precision": 2,
+  "valueAxes": [{
+    "id": "v1",
+    "title": "Sales",
+    "position": "left",
+    "autoGridCount": false,
+    "labelFunction": function(value) {
+      return "$" + Math.round(value) + "M";
+    }
+  }, {
+    "id": "v2",
+    "title": "Market Days",
+    "gridAlpha": 0,
+    "position": "right",
+    "autoGridCount": false
+  }],
+  "graphs": [{
+    "id": "g3",
+    "valueAxis": "v1",
+    "lineColor": "#6713d2",
+    "fillColors": "#6713d2",
+    "fillAlphas": .7,
+    "type": "column",
+    "title": "Actual Sales",
+    "valueField": "sales2",
+    "clustered": false,
+    "columnWidth": 0.5,
+    "legendValueText": "$[[value]]M",
+    "balloonText": "[[title]]<br/><b style='font-size: 130%'>$[[value]]M</b>"
+  }, {
+    "id": "g4",
+    "valueAxis": "v1",
+    "lineColor": "#6713d2",
+    "fillColors": "#cc208e",
+    "fillAlphas": .7,
+    "type": "column",
+    "title": "Target Sales",
+    "valueField": "sales1",
+    "clustered": false,
+    "columnWidth": 0.3,
+    "legendValueText": "$[[value]]M",
+    "balloonText": "[[title]]<br/><b style='font-size: 130%'>$[[value]]M</b>"
+  }, {
+    "id": "g1",
+    "valueAxis": "v2",
+    "bullet": "round",
+    "bulletBorderAlpha": 1,
+    "bulletColor": "#FFFFFF",
+    "bulletSize": 5,
+    "hideBulletsCount": 50,
+    "lineThickness": 2,
+    "lineColor": "#6713d2",
+    "type": "smoothedLine",
+    "title": "Market Days",
+    "useLineColorForBulletBorder": true,
+    "valueField": "market1",
+    "balloonText": "[[title]]<br/><b style='font-size: 130%'>[[value]]</b>"
+  }, {
+    "id": "g2",
+    "valueAxis": "v2",
+    "bullet": "round",
+    "bulletBorderAlpha": 1,
+    "bulletColor": "#FFFFFF",
+    "bulletSize": 5,
+    "hideBulletsCount": 50,
+    "lineThickness": 2,
+    "lineColor": "#6713d2",
+    "type": "smoothedLine",
+    "dashLength": 5,
+    "title": "Market Days ALL",
+    "useLineColorForBulletBorder": true,
+    "valueField": "market2",
+    "balloonText": "[[title]]<br/><b style='font-size: 130%'>[[value]]</b>"
+  }],
+  "chartScrollbar": {
+    "graph": "g1",
+    "oppositeAxis": false,
+    "offset": 30,
+    "scrollbarHeight": 50,
+    "backgroundAlpha": 0,
+    "selectedBackgroundAlpha": 0.1,
+    "selectedBackgroundColor": "#fff",
+    "graphFillAlpha": 0,
+    "graphLineAlpha": 0.5,
+    "selectedGraphFillAlpha": 0,
+    "selectedGraphLineAlpha": 1,
+    "autoGridCount": true,
+    "color": "#AAAAAA"
+  },
+  "chartCursor": {
+    "pan": true,
+    "valueLineEnabled": true,
+    "valueLineBalloonEnabled": true,
+    "cursorAlpha": 0,
+    "valueLineAlpha": 0.2
+  },
+  "categoryField": "date",
+  "categoryAxis": {
+    "parseDates": true,
+    "dashLength": 1,
+    "minorGridEnabled": true
+  },
+  "legend": {
+    "useGraphSettings": true,
+    "position": "top"
+  },
+  "balloon": {
+    "borderThickness": 1,
+    "shadowAlpha": 0
+  },
+  "export": {
+    enabled: true
+  },
+  "dataProvider": [{
+    "date": "2013-01-16",
+    "market1": 71,
+    "market2": 75,
+    "sales1": 5,
+    "sales2": 8
+  }, {
+    "date": "2013-01-17",
+    "market1": 74,
+    "market2": 78,
+    "sales1": 4,
+    "sales2": 6
+  }, {
+    "date": "2013-01-18",
+    "market1": 78,
+    "market2": 88,
+    "sales1": 5,
+    "sales2": 2
+  }, {
+    "date": "2013-01-19",
+    "market1": 85,
+    "market2": 89,
+    "sales1": 8,
+    "sales2": 9
+  }, {
+    "date": "2013-01-20",
+    "market1": 82,
+    "market2": 89,
+    "sales1": 9,
+    "sales2": 6
+  }, {
+    "date": "2013-01-21",
+    "market1": 83,
+    "market2": 85,
+    "sales1": 3,
+    "sales2": 5
+  }, {
+    "date": "2013-01-22",
+    "market1": 88,
+    "market2": 92,
+    "sales1": 5,
+    "sales2": 7
+  }, {
+    "date": "2013-01-23",
+    "market1": 85,
+    "market2": 90,
+    "sales1": 7,
+    "sales2": 6
+  }, {
+    "date": "2013-01-24",
+    "market1": 85,
+    "market2": 91,
+    "sales1": 9,
+    "sales2": 5
+  }, {
+    "date": "2013-01-25",
+    "market1": 80,
+    "market2": 84,
+    "sales1": 5,
+    "sales2": 8
+  }, {
+    "date": "2013-01-26",
+    "market1": 87,
+    "market2": 92,
+    "sales1": 4,
+    "sales2": 8
+  }, {
+    "date": "2013-01-27",
+    "market1": 84,
+    "market2": 87,
+    "sales1": 3,
+    "sales2": 4
+  }, {
+    "date": "2013-01-28",
+    "market1": 83,
+    "market2": 88,
+    "sales1": 5,
+    "sales2": 7
+  }, {
+    "date": "2013-01-29",
+    "market1": 84,
+    "market2": 87,
+    "sales1": 5,
+    "sales2": 8
+  }, {
+    "date": "2013-01-30",
+    "market1": 81,
+    "market2": 85,
+    "sales1": 4,
+    "sales2": 7
+  }]
+});
+
+chart.write("chartdiv");
+chart1.write("chartdiv1");
+	</script>
+	
+<!--Ticker-->
+	<script>
+	var $ticker = $('[data-ticker="list"]'),
+    tickerItem = '[data-ticker="item"]'
+    itemCount = $(tickerItem).length,
+    viewportWidth = 0;
+
+function setupViewport(){
+    $ticker.find(tickerItem).clone().prependTo('[data-ticker="list"]');
+    
+    for (i = 0; i < itemCount; i ++){
+        var itemWidth = $(tickerItem).eq(i).outerWidth();
+        viewportWidth = viewportWidth + itemWidth;
+    }
+    
+    $ticker.css('width', viewportWidth);
+}
+
+function animateTicker(){
+    $ticker.animate({
+        marginLeft: -viewportWidth
+      }, 50000, "linear", function() {
+        $ticker.css('margin-left', '0');
+        animateTicker();
+      });
+}
+
+function initializeTicker(){
+    setupViewport();
+    animateTicker();
+    
+    $ticker.on('mouseenter', function(){
+        $(this).stop(true);
+    }).on('mouseout', function(){
+        animateTicker();
+    });
+}
+
+initializeTicker();
+	</script>
+	
+</body>
+
+</html>
