@@ -1,5 +1,5 @@
 <div align="center">
-<a  href="http://preadmin.io"><img src="https://dreamguystech.com/preadmin/assets/img/logo-white.png" alt="Total Downloads" style="background-color: #612EB0; padding: 12px;"></a>
+<a  href="http://preadmin.io" style="display:inline-block;"><img src="https://dreamguystech.com/preadmin/assets/img/logo-white.png" alt="Total Downloads" style="background-color: #612EB0; padding: 12px;"></a>
 </div>
 
 
@@ -27,7 +27,6 @@
 
 <p><strong>Preadmin</strong> is compatible with on all major browsers, iPad, iPhone, Tablet, Andriod mobiles, and all other mobile devices. The template package comes with UI kits, Tables, Charts, Email, Video Calling, Voice Calling, Chat, E-commerce, Hospital Management, CRM, Blog, RTL and many more.</p>
 
-<p><strong>Note:</strong> HR Management Template &#8211; Available Bootstrap 3.3.7 Only <br /></p>
 <a href="https://dreamguystech.com/preadmin/inventory/index.html"><img src="https://www.dreamguys.co.in/codecanyon/preadmin/new-template.png" alt="Preadmin Admin Template" /></a>
 
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/preadmin-new-template.png" alt="Preadmin Admin Template" />
@@ -41,8 +40,8 @@
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/reviews.png" alt="Preadmin Template Features" />
 
-<img src="http://dreamguys.co.in/themeforest/socialicons/need-customization.png" alt="Dreamguys customization">
-<img src="http://dreamguys.co.in/themeforest/socialicons/need-support.png" alt="Dreamguys support">
+<a href="mailto:business@dreamguystech.com"><img src="http://dreamguys.co.in/themeforest/socialicons/need-customization.png" alt="Dreamguys customization"></a>
+<a href="mailto:support@dreamguystech.com"><img src="http://dreamguys.co.in/themeforest/socialicons/need-support.png" alt="Dreamguys support"></a>
 
 <h2>We can use this template in different of platform like</h2>
 <ul>
