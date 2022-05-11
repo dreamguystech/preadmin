@@ -1,5 +1,5 @@
 <p align="center">
-<a  href="http://preadmin.io" style="background-color:#33475b"><img src="https://dreamguystech.com/preadmin/assets/img/logo-white.png" alt="Total Downloads"></a>
+<a  href="http://preadmin.io" style="background-color:#000"><img src="https://dreamguystech.com/preadmin/assets/img/logo-white.png" alt="Total Downloads"></a>
 </p>
 
 
