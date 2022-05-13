@@ -1,5 +1,11 @@
+<style type="text/css">
+	.markdown-body img {
+		background-color: transparent !important;
+	}
+</style>
+
 <div align="center">
-<a  href="http://preadmin.io" style="display:inline-block;"><img src="https://dreamguystech.com/preadmin/assets/img/logo-white.png" alt="Total Downloads" style="background-color: #612EB0; padding: 12px;"></a>
+<a  href="http://preadmin.io" style="display:inline-block;"><img src="https://preadmin.io/assets/img/logo.png" alt="Total Downloads" style="background-color: #612EB0; padding: 12px;"></a>
 </div>
 
 
@@ -83,93 +89,3 @@
 		<td><a href="https://codecanyon.net/user/dreamguys/follow" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-envato.png"></a></td>
     </tr>
 </table>
-<a href="http://www.dreamguys.co.in" rel="nofollow" target="_blank"><img src="https://www.dreamguys.co.in/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
-
-<h3>Updates</h3>
-
-
-<p><strong>Version 3.6.3(08 FEB 2022 )</strong></p>
-<pre>
-- Added crms, crypto templates Laravel
-</pre>
-
-
-<p><strong>Version 3.6.2 (17 JAN 2022 )</strong></p>
-<pre>
-- Added hotel template Laravel
-- Added inventory, hospital, hotel templates Angular
-</pre>
-
-
-<p><strong>Version 3.6.1 (17 JAN 2022 )</strong></p>
-<pre>
-- Added a hospital, hrms, inventory and school Laravel templates.
-</pre>
-
-<p><strong>Version 3.6 (22 Sep 2021)</strong></p>
-<pre>
-- New icons added
-- New elements added
-- New charts added
-</pre>
-
-<p><strong>Version 3.5 (27th July 2021)</strong></p>
-<pre>
-- New template added in HR
-- School template design changed
-- New template added in Crypto
-- New template added in Hotel
-- Hospital template design changed
-- New template added in CRM
--  New inventory template added
-</pre>
-
-<p><strong>Version 3.4 (27th May 2021)</strong></p>
-<pre>
-- Plugins updates
-</pre>
-
-<p><strong>Version 3.3 (14th Aug 2020)</strong></p>
-<pre>
-- Added - New Version Hotel templates
-</pre>
-
-<p><strong>Version 3.2 (5th May 2019)</strong></p>
-<pre>
-- Added - Cypto-Buyer templates
-</pre>
-
-<p><strong>Version 3.1.1 (27th February 2019)</strong></p>
-<pre>- Fixed design issues in School Template
-</pre>
-
-<p><strong>Version 3.1 (20th February 2019)</strong></p>
-<pre>- Include Hotel templates
-</pre>
-
-<p><strong>Version 3.0 (5th February 2019)</strong></p>
-<pre>
-- Include HR & School templates
-</pre>
-
-<p><strong>Version 2.1 (28th November 2018)</strong></p>
-<pre>
-- Included New Hospital Management Template (Bootstrap 4.1.1 version)
-</pre>
-
-<p><strong>Version 2.0 (8th June 2018)</strong></p>
-<pre>
-- Updated with Bootstrap 4.1.1 version
-</pre>
-
-<p><strong>Version 1.0 (20th February 2018) </strong></p>
-<pre>
-- Initial Release
-</pre>
-
-<p><a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://www.dreamguys.co.in/codecanyon/gigs/live-chat.jpg" alt="" /></a></p>
-
-<table><tr><td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"> <img src="https://www.dreamguys.co.in/codecanyon/facebook.png" alt="" /></a></td> 
-<td><a href="https://twitter.com/dreamguystech" rel="nofollow"> <img src="https://www.dreamguys.co.in/codecanyon/twitter.png" alt="" /></a> </td>
-<td><a href="https://www.linkedin.com/in/dreamguystech" rel="nofollow"> <img src="https://www.dreamguys.co.in/codecanyon/linkedin.png" alt="" /></a></td></tr></table>
-<a href="http://www.dreamguys.co.in" rel="nofollow"> <img src="https://www.dreamguys.co.in/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
