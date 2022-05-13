@@ -473,7 +473,7 @@ html.menu-opened body {
     background-size: cover;
     padding: 100px 0;
     position: relative;
-    height: 940px;
+    height: 830px;
 }
 #home-pro {
     background: url(../img/bg-2pro.png);
@@ -509,7 +509,7 @@ html.menu-opened body {
 .section-title h3 {
     color: #612EB0;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
 }
 .btn-bg-gradient {
     background: #612EB0;
@@ -545,7 +545,7 @@ html.menu-opened body {
     position: absolute;
     left: 50px;
     bottom: -160px;
-    max-width: 780px;
+    max-width: 600px;
 }
 .header-content h1 {
     font-size: 48px;
@@ -569,7 +569,7 @@ h5 {
     margin-bottom: 4rem;
 }
 .button-3 a {
-    font-size: 24px;
+    font-size: 20px;
     padding: 8px 20px;
     font-weight: 700;
 	margin-bottom:10px;
@@ -628,7 +628,7 @@ h5 {
 }
 .section-title h3 {
     color: #612EB0;
-    font-size: 36px;
+    font-size: 32px;
 }
 #section-2 p {
     color: #000;
@@ -657,7 +657,7 @@ ul.no-dots {
 }
 .attach-aside {
     position: absolute;
-    top: 60px;
+    top: 180px;
     left: 15px;
 }
 .attach-aside.attach-aside-1 {
@@ -854,9 +854,6 @@ ul.no-dots {
 .source {
     background: url(../img/bg-source.png);
     background-size: cover;
-}
-#button-lap a {
-    width: 200px;
 }
 #reviews {
     background: url(../img/bg-review.png);
@@ -1395,7 +1392,7 @@ ul.no-dots {
         height: auto;
     }
     .section-title h3 {
-        font-size: 32px;
+        font-size: 30px;
     }
     .owl-theme .testimonial {
         font-size: 16px;
@@ -1563,7 +1560,7 @@ ul.no-dots {
         font-size: 15px;
     }
     .section-title h3 {
-        font-size: 28px;
+        font-size: 26px;
     }
     #section-2 p {
         font-size: 15px;
