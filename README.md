@@ -1,11 +1,5 @@
-<style type="text/css">
-	.markdown-body img {
-		background-color: transparent !important;
-	}
-</style>
-
 <div align="center">
-<a  href="http://preadmin.io" style="display:inline-block;"><img src="https://preadmin.io/assets/img/logo.png" alt="Total Downloads" style="background-color: #612EB0; padding: 12px;"></a>
+<a  href="http://preadmin.io"><img src="https://preadmin.io/assets/img/logo.png" alt="Total Downloads"></a>
 </div>
 
 
