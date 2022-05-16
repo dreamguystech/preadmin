@@ -1,17 +1,14 @@
+<br>
 <div align="center">
 <a  href="http://preadmin.io"><img src="https://preadmin.io/assets/img/logo.png" alt="Total Downloads"></a>
 </div>
+<br>
+<div align="center" dir="auto">
+	<a href="https://github.com/dreamguys/preadmin/blob/main/LICENSE"><img src="assets/img/license.svg"></a>
+	<a href="https://preadmin.io/"><img src="assets/img/demo.svg"></a>
+	<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="assets/img/download.svg"></a>
+</div>
 
-
-
-## Topics
-
-1. [Introduction](#introduction)
-2. [Documentation](#documentation)
-3. [Requirements](#requirements)
-4. [Installation & Configuration](#installation-and-configuration)
-5. [License](#license)
-6. [Security Vulnerabilities](#security-vulnerabilities)
 
 ### Introduction
 
@@ -27,21 +24,17 @@
 
 <p><strong>Preadmin</strong> is compatible with on all major browsers, iPad, iPhone, Tablet, Andriod mobiles, and all other mobile devices. The template package comes with UI kits, Tables, Charts, Email, Video Calling, Voice Calling, Chat, E-commerce, Hospital Management, CRM, Blog, RTL and many more.</p>
 
-<a href="https://dreamguystech.com/preadmin/inventory/index.html"><img src="https://www.dreamguys.co.in/codecanyon/preadmin/new-template.png" alt="Preadmin Admin Template" /></a>
-
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/preadmin-new-template.png" alt="Preadmin Admin Template" />
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/screen.png" alt="Preadmin Admin Template" />
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/responsive-preadmin.png" alt="Preadmin Admin Template" />
-
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/home.png" alt="Preadmin Admin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/responsive.png" alt="responsive Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/dark.png" alt="Preadmin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
 <img src="https://www.dreamguys.co.in/codecanyon/preadmin/reviews.png" alt="Preadmin Template Features" />
+<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="https://www.dreamguys.co.in/codecanyon/preadmin/preadmin-pro.jpg" alt="Preadmin Template Features" /></a>
 
-<a href="mailto:business@dreamguystech.com"><img src="http://dreamguys.co.in/themeforest/socialicons/need-customization.png" alt="Dreamguys customization"></a>
-<a href="mailto:support@dreamguystech.com"><img src="http://dreamguys.co.in/themeforest/socialicons/need-support.png" alt="Dreamguys support"></a>
+<a href="mailto:business@dreamguystech.com"><img src="https://dreamguys.co.in/themeforest/socialicons/customization.png"></a>
+<a href="mailto:support@dreamguystech.com"><img src="https://dreamguys.co.in/themeforest/socialicons/support.png"></a>
+<a href="mailto:business@dreamguystech.com"><img src="https://dreamguys.co.in/themeforest/socialicons/solutions.jpg"></a>
 
 <h2>We can use this template in different of platform like</h2>
 <ul>
