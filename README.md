@@ -28,18 +28,18 @@
 <p><strong>Preadmin</strong> is compatible with on all major browsers, iPad, iPhone, Tablet, Andriod mobiles, and all other mobile devices. The template package comes with UI kits, Tables, Charts, Email, Video Calling, Voice Calling, Chat, E-commerce, Hospital Management, CRM, Blog, RTL and many more.</p>
 
 <p><strong>Note:</strong> HR Management Template &#8211; Available Bootstrap 3.3.7 Only <br /></p>
-<a href="https://dreamguystech.com/preadmin/inventory/index.html"><img src="https://www.dreamguys.co.in/codecanyon/preadmin/new-template.png" alt="Preadmin Admin Template" /></a>
+<a href="https://dreamguystech.com/preadmin/inventory/index.html"><img src="https://envato.dreamguystech.com/codecanyon/preadmin/new-template.png" alt="Preadmin Admin Template" /></a>
 
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/preadmin-new-template.png" alt="Preadmin Admin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/screen.png" alt="Preadmin Admin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/responsive-preadmin.png" alt="Preadmin Admin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/preadmin-new-template.png" alt="Preadmin Admin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/screen.png" alt="Preadmin Admin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/responsive-preadmin.png" alt="Preadmin Admin Template" />
 
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/home.png" alt="Preadmin Admin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/responsive.png" alt="responsive Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/dark.png" alt="Preadmin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/reviews.png" alt="Preadmin Template Features" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/home.png" alt="Preadmin Admin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/responsive.png" alt="responsive Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/dark.png" alt="Preadmin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/reviews.png" alt="Preadmin Template Features" />
 
 <img src="http://dreamguys.co.in/themeforest/socialicons/need-customization.png" alt="Dreamguys customization">
 <img src="http://dreamguys.co.in/themeforest/socialicons/need-support.png" alt="Dreamguys support">
@@ -76,7 +76,7 @@
 
 <p><strong>Note:</strong> Preview Pictures are for demo purpose only and not included in the package.</p>
 
-<a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://www.dreamguys.co.in/codecanyon/gigs/live-chat.jpg" alt="dreamguys" /></a>
+<a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://envato.dreamguystech.com/codecanyon/gigs/live-chat.jpg" alt="dreamguys" /></a>
 <table>
   <tr>
 		<td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-fb.png"></a></td>
@@ -84,7 +84,7 @@
 		<td><a href="https://codecanyon.net/user/dreamguys/follow" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-envato.png"></a></td>
     </tr>
 </table>
-<a href="http://www.dreamguys.co.in" rel="nofollow" target="_blank"><img src="https://www.dreamguys.co.in/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
+<a href="http://www.dreamguys.co.in" rel="nofollow" target="_blank"><img src="https://envato.dreamguystech.com/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
 
 <h3>Updates</h3>
 
@@ -168,9 +168,9 @@
 - Initial Release
 </pre>
 
-<p><a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://www.dreamguys.co.in/codecanyon/gigs/live-chat.jpg" alt="" /></a></p>
+<p><a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://envato.dreamguystech.com/codecanyon/gigs/live-chat.jpg" alt="" /></a></p>
 
-<table><tr><td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"> <img src="https://www.dreamguys.co.in/codecanyon/facebook.png" alt="" /></a></td> 
-<td><a href="https://twitter.com/dreamguystech" rel="nofollow"> <img src="https://www.dreamguys.co.in/codecanyon/twitter.png" alt="" /></a> </td>
-<td><a href="https://www.linkedin.com/in/dreamguystech" rel="nofollow"> <img src="https://www.dreamguys.co.in/codecanyon/linkedin.png" alt="" /></a></td></tr></table>
-<a href="http://www.dreamguys.co.in" rel="nofollow"> <img src="https://www.dreamguys.co.in/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
+<table><tr><td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/facebook.png" alt="" /></a></td> 
+<td><a href="https://twitter.com/dreamguystech" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/twitter.png" alt="" /></a> </td>
+<td><a href="https://www.linkedin.com/in/dreamguystech" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/linkedin.png" alt="" /></a></td></tr></table>
+<a href="http://www.dreamguys.co.in" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
