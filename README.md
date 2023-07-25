@@ -41,8 +41,8 @@
 <img src="https://envato.dreamguystech.com/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
 <img src="https://envato.dreamguystech.com/codecanyon/preadmin/reviews.png" alt="Preadmin Template Features" />
 
-<img src="http://dreamguys.co.in/themeforest/socialicons/need-customization.png" alt="Dreamguys customization">
-<img src="http://dreamguys.co.in/themeforest/socialicons/need-support.png" alt="Dreamguys support">
+<img src="https://envato.dreamguystech.com/themeforest/socialicons/need-customization.png" alt="Dreamguys customization">
+<img src="https://envato.dreamguystech.com/themeforest/socialicons/need-support.png" alt="Dreamguys support">
 
 <h2>We can use this template in different of platform like</h2>
 <ul>
@@ -79,12 +79,12 @@
 <a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://envato.dreamguystech.com/codecanyon/gigs/live-chat.jpg" alt="dreamguys" /></a>
 <table>
   <tr>
-		<td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-fb.png"></a></td>
-		<td><a href="https://www.twitter.com/dreamguystech/" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-twitter1.png"></a></td>
-		<td><a href="https://codecanyon.net/user/dreamguys/follow" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-envato.png"></a></td>
+		<td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-fb.png"></a></td>
+		<td><a href="https://www.twitter.com/dreamguystech/" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-twitter1.png"></a></td>
+		<td><a href="https://codecanyon.net/user/dreamguys/follow" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-envato.png"></a></td>
     </tr>
 </table>
-<a href="http://www.dreamguys.co.in" rel="nofollow" target="_blank"><img src="https://envato.dreamguystech.com/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
+<a href="http://www.dreamguystech.com" rel="nofollow" target="_blank"><img src="https://envato.dreamguystech.com/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
 
 <h3>Updates</h3>
 
@@ -173,4 +173,4 @@
 <table><tr><td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/facebook.png" alt="" /></a></td> 
 <td><a href="https://twitter.com/dreamguystech" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/twitter.png" alt="" /></a> </td>
 <td><a href="https://www.linkedin.com/in/dreamguystech" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/linkedin.png" alt="" /></a></td></tr></table>
-<a href="http://www.dreamguys.co.in" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
+<a href="http://www.dreamguystech.com" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
