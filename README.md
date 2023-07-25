@@ -8,9 +8,7 @@
 	<a href="https://preadmin.io/"><img src="assets/img/demo.svg"></a>
 	<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="assets/img/download.svg"></a>
 </div>
-
 ### Introduction
-
 [PreAdmin](https://preadmin.io) is a hand tailored admin panel for anyone to use
 
 **Free & Opensource Admin Template solution for SMEs and Enterprises for complete customer lifecycle management.**
