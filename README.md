@@ -84,7 +84,6 @@
 		<td><a href="https://codecanyon.net/user/dreamguys/follow" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-envato.png"></a></td>
     </tr>
 </table>
-<a href="http://www.dreamguystech.com" rel="nofollow" target="_blank"><img src="https://envato.dreamguystech.com/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
 
 <h3>Updates</h3>
 
@@ -173,4 +172,3 @@
 <table><tr><td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/facebook.png" alt="" /></a></td> 
 <td><a href="https://twitter.com/dreamguystech" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/twitter.png" alt="" /></a> </td>
 <td><a href="https://www.linkedin.com/in/dreamguystech" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/linkedin.png" alt="" /></a></td></tr></table>
-<a href="http://www.dreamguystech.com" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/gigs_services_market5" alt="DreamGuys Technologies" /></a>
