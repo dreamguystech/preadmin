@@ -9,7 +9,6 @@
 	<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="assets/img/download.svg"></a>
 </div>
 
-
 ### Introduction
 
 [PreAdmin](https://preadmin.io) is a hand tailored admin panel for anyone to use
