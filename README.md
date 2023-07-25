@@ -1,17 +1,14 @@
-<p align="center">
-<a  href="http://preadmin.io" style="background-color:#512a99"><img src="https://preadmin.dreamguystech.com/assets/img/logo-white.png" alt="Total Downloads" style="background-color:#512a99"></a>
-</p>
+<br>
+<div align="center">
+<a  href="https://preadmin.io/"><img src="https://preadmin.dreamguystech.com/assets/img/logo.png" alt="Total Downloads" style="background:#4d2997;"></a>
+</div>
+<br>
+<div align="center" dir="auto">
+	<a href="https://github.com/dreamguys/preadmin/blob/main/LICENSE"><img src="assets/img/license.svg"></a>
+	<a href="https://preadmin.io/"><img src="assets/img/demo.svg"></a>
+	<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="assets/img/download.svg"></a>
+</div>
 
-
-
-## Topics
-
-1. [Introduction](#introduction)
-2. [Documentation](#documentation)
-3. [Requirements](#requirements)
-4. [Installation & Configuration](#installation-and-configuration)
-5. [License](#license)
-6. [Security Vulnerabilities](#security-vulnerabilities)
 
 ### Introduction
 
@@ -27,22 +24,17 @@
 
 <p><strong>Preadmin</strong> is compatible with on all major browsers, iPad, iPhone, Tablet, Andriod mobiles, and all other mobile devices. The template package comes with UI kits, Tables, Charts, Email, Video Calling, Voice Calling, Chat, E-commerce, Hospital Management, CRM, Blog, RTL and many more.</p>
 
-<p><strong>Note:</strong> HR Management Template &#8211; Available Bootstrap 3.3.7 Only <br /></p>
-<a href="https://dreamguystech.com/preadmin/inventory/index.html"><img src="https://envato.dreamguystech.com/codecanyon/preadmin/new-template.png" alt="Preadmin Admin Template" /></a>
-
 <img src="https://envato.dreamguystech.com/codecanyon/preadmin/preadmin-new-template.png" alt="Preadmin Admin Template" />
 <img src="https://envato.dreamguystech.com/codecanyon/preadmin/screen.png" alt="Preadmin Admin Template" />
 <img src="https://envato.dreamguystech.com/codecanyon/preadmin/responsive-preadmin.png" alt="Preadmin Admin Template" />
-
 <img src="https://envato.dreamguystech.com/codecanyon/preadmin/home.png" alt="Preadmin Admin Template" />
-<img src="https://envato.dreamguystech.com/codecanyon/preadmin/responsive.png" alt="responsive Template" />
-<img src="https://envato.dreamguystech.com/codecanyon/preadmin/dark.png" alt="Preadmin Template" />
-<img src="https://envato.dreamguystech.com/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
 <img src="https://envato.dreamguystech.com/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
 <img src="https://envato.dreamguystech.com/codecanyon/preadmin/reviews.png" alt="Preadmin Template Features" />
+<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="https://envato.dreamguystech.com/codecanyon/preadmin/preadmin-pro.jpg" alt="Preadmin Template Features" /></a>
 
-<img src="https://envato.dreamguystech.com/themeforest/socialicons/need-customization.png" alt="Dreamguys customization">
-<img src="https://envato.dreamguystech.com/themeforest/socialicons/need-support.png" alt="Dreamguys support">
+<a href="mailto:business@dreamguystech.com"><img src="https://envato.dreamguystech.com/themeforest/socialicons/customization.png"></a>
+<a href="mailto:support@dreamguystech.com"><img src="https://envato.dreamguystech.com/themeforest/socialicons/support.png"></a>
+<a href="mailto:business@dreamguystech.com"><img src="https://envato.dreamguystech.com/themeforest/socialicons/solutions.jpg"></a>
 
 <h2>We can use this template in different of platform like</h2>
 <ul>
@@ -76,7 +68,7 @@
 
 <p><strong>Note:</strong> Preview Pictures are for demo purpose only and not included in the package.</p>
 
-<a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://envato.dreamguystech.com/codecanyon/gigs/live-chat.jpg" alt="dreamguys" /></a>
+<a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://www.dreamguystech.com/codecanyon/gigs/live-chat.jpg" alt="dreamguys" /></a>
 <table>
   <tr>
 		<td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-fb.png"></a></td>
@@ -84,91 +76,3 @@
 		<td><a href="https://codecanyon.net/user/dreamguys/follow" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-envato.png"></a></td>
     </tr>
 </table>
-
-<h3>Updates</h3>
-
-
-<p><strong>Version 3.6.3(08 FEB 2022 )</strong></p>
-<pre>
-- Added crms, crypto templates Laravel
-</pre>
-
-
-<p><strong>Version 3.6.2 (17 JAN 2022 )</strong></p>
-<pre>
-- Added hotel template Laravel
-- Added inventory, hospital, hotel templates Angular
-</pre>
-
-
-<p><strong>Version 3.6.1 (17 JAN 2022 )</strong></p>
-<pre>
-- Added a hospital, hrms, inventory and school Laravel templates.
-</pre>
-
-<p><strong>Version 3.6 (22 Sep 2021)</strong></p>
-<pre>
-- New icons added
-- New elements added
-- New charts added
-</pre>
-
-<p><strong>Version 3.5 (27th July 2021)</strong></p>
-<pre>
-- New template added in HR
-- School template design changed
-- New template added in Crypto
-- New template added in Hotel
-- Hospital template design changed
-- New template added in CRM
--  New inventory template added
-</pre>
-
-<p><strong>Version 3.4 (27th May 2021)</strong></p>
-<pre>
-- Plugins updates
-</pre>
-
-<p><strong>Version 3.3 (14th Aug 2020)</strong></p>
-<pre>
-- Added - New Version Hotel templates
-</pre>
-
-<p><strong>Version 3.2 (5th May 2019)</strong></p>
-<pre>
-- Added - Cypto-Buyer templates
-</pre>
-
-<p><strong>Version 3.1.1 (27th February 2019)</strong></p>
-<pre>- Fixed design issues in School Template
-</pre>
-
-<p><strong>Version 3.1 (20th February 2019)</strong></p>
-<pre>- Include Hotel templates
-</pre>
-
-<p><strong>Version 3.0 (5th February 2019)</strong></p>
-<pre>
-- Include HR & School templates
-</pre>
-
-<p><strong>Version 2.1 (28th November 2018)</strong></p>
-<pre>
-- Included New Hospital Management Template (Bootstrap 4.1.1 version)
-</pre>
-
-<p><strong>Version 2.0 (8th June 2018)</strong></p>
-<pre>
-- Updated with Bootstrap 4.1.1 version
-</pre>
-
-<p><strong>Version 1.0 (20th February 2018) </strong></p>
-<pre>
-- Initial Release
-</pre>
-
-<p><a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://envato.dreamguystech.com/codecanyon/gigs/live-chat.jpg" alt="" /></a></p>
-
-<table><tr><td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/facebook.png" alt="" /></a></td> 
-<td><a href="https://twitter.com/dreamguystech" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/twitter.png" alt="" /></a> </td>
-<td><a href="https://www.linkedin.com/in/dreamguystech" rel="nofollow"> <img src="https://envato.dreamguystech.com/codecanyon/linkedin.png" alt="" /></a></td></tr></table>
