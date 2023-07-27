@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-<a  href="http://preadmin.io"><img src="https://preadmin.io/assets/img/logo.png" alt="Total Downloads"></a>
+<a  href="https://preadmin.io/"><img src="https://preadmin.dreamguystech.com/assets/img/logo.png" alt="Total Downloads" style="background:#4d2997;"></a>
 </div>
 <br>
 <div align="center" dir="auto">
@@ -8,10 +8,7 @@
 	<a href="https://preadmin.io/"><img src="assets/img/demo.svg"></a>
 	<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="assets/img/download.svg"></a>
 </div>
-
-
 ### Introduction
-
 [PreAdmin](https://preadmin.io) is a hand tailored admin panel for anyone to use
 
 **Free & Opensource Admin Template solution for SMEs and Enterprises for complete customer lifecycle management.**
@@ -24,17 +21,17 @@
 
 <p><strong>Preadmin</strong> is compatible with on all major browsers, iPad, iPhone, Tablet, Andriod mobiles, and all other mobile devices. The template package comes with UI kits, Tables, Charts, Email, Video Calling, Voice Calling, Chat, E-commerce, Hospital Management, CRM, Blog, RTL and many more.</p>
 
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/preadmin-new-template.png" alt="Preadmin Admin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/screen.png" alt="Preadmin Admin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/responsive-preadmin.png" alt="Preadmin Admin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/home.png" alt="Preadmin Admin Template" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
-<img src="https://www.dreamguys.co.in/codecanyon/preadmin/reviews.png" alt="Preadmin Template Features" />
-<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="https://www.dreamguys.co.in/codecanyon/preadmin/preadmin-pro.jpg" alt="Preadmin Template Features" /></a>
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/preadmin-new-template.png" alt="Preadmin Admin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/screen.png" alt="Preadmin Admin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/responsive-preadmin.png" alt="Preadmin Admin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/home.png" alt="Preadmin Admin Template" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/feature.png" alt="Preadmin Template Features" />
+<img src="https://envato.dreamguystech.com/codecanyon/preadmin/reviews.png" alt="Preadmin Template Features" />
+<a href="https://themeforest.net/item/preadmin-bootstrap-admin-template/21457074"><img src="https://envato.dreamguystech.com/codecanyon/preadmin/preadmin-pro.jpg" alt="Preadmin Template Features" /></a>
 
-<a href="mailto:business@dreamguystech.com"><img src="https://dreamguys.co.in/themeforest/socialicons/customization.png"></a>
-<a href="mailto:support@dreamguystech.com"><img src="https://dreamguys.co.in/themeforest/socialicons/support.png"></a>
-<a href="mailto:business@dreamguystech.com"><img src="https://dreamguys.co.in/themeforest/socialicons/solutions.jpg"></a>
+<a href="mailto:business@dreamguystech.com"><img src="https://envato.dreamguystech.com/themeforest/socialicons/customization.png"></a>
+<a href="mailto:support@dreamguystech.com"><img src="https://envato.dreamguystech.com/themeforest/socialicons/support.png"></a>
+<a href="mailto:business@dreamguystech.com"><img src="https://envato.dreamguystech.com/themeforest/socialicons/solutions.jpg"></a>
 
 <h2>We can use this template in different of platform like</h2>
 <ul>
@@ -68,11 +65,11 @@
 
 <p><strong>Note:</strong> Preview Pictures are for demo purpose only and not included in the package.</p>
 
-<a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://www.dreamguys.co.in/codecanyon/gigs/live-chat.jpg" alt="dreamguys" /></a>
+<a href="https://m.me/dreamguystech" rel="nofollow"><img src="https://www.dreamguystech.com/codecanyon/gigs/live-chat.jpg" alt="dreamguys" /></a>
 <table>
   <tr>
-		<td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-fb.png"></a></td>
-		<td><a href="https://www.twitter.com/dreamguystech/" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-twitter1.png"></a></td>
-		<td><a href="https://codecanyon.net/user/dreamguys/follow" rel="nofollow"><img alt="" src="http://dreamguys.co.in/themeforest/socialicons/dgt-envato.png"></a></td>
+		<td><a href="https://www.facebook.com/dreamguystech/" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-fb.png"></a></td>
+		<td><a href="https://www.twitter.com/dreamguystech/" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-twitter1.png"></a></td>
+		<td><a href="https://codecanyon.net/user/dreamguys/follow" rel="nofollow"><img alt="" src="https://envato.dreamguystech.com/themeforest/socialicons/dgt-envato.png"></a></td>
     </tr>
 </table>
